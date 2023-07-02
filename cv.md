@@ -3,6 +3,7 @@
 ## Contacts
 * **Phone:** +375 (29) 276-02-66
 * **E-mail:** filippov7890@gmail.com
+* **GitHub:** [aleks-filippov](https://github.com/aleks-filippov)
 
 ## About me
 Purposeful, ready for hard work and will never give up on my goals
