@@ -37,3 +37,7 @@ Polotsk State University - Software Engineer (2018-2022)
 ## Experience
 * Software Engineer at Ilya state agrarian college (aug 2022 - feb 2023) 
 * Software Enginner at OJSC "Bakery and Confectionery Company "Domochay" (mar 2023 - present)
+
+## Languages
+* Russian - Native
+* English - A2
