@@ -1,13 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Filippov CV</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleksandr Filippov CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    Hello! World!
+    <header>
+        <div class="container info">
+            <img src="/assets/me.jpg" alt="My photo" class="photo">
+            
+            <div class="info-text">
+                <h1>Aleksandr Filippov</h1>
+                <p>Frontend Developer</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container navigation">
+            <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code Example</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section class="card bg-red">
+                <h2 id="contacts">Contacts</h2>
+                <ul>
+                    <li>E-mail: <a href="mailto:filippov7890@gmail.com">filippov7890@gmail.com</a></li>
+                    <li>Phone: <a href="tel:+375292760266">+375 (29) 276-02-66</a></li>
+                    <li>Telegram: aleks_filipp</li>
+                </ul>
+            </section>
+
+            <section class="card bg-orange">
+                <h2 id="about">About me</h2>
+                <p>Purposeful, ready for hard work 
+                and will never give up on my goals</p>
+            </section>
+
+            <section class="card bg-yellow">
+                <h2 id="skills">Skills</h2>
+                <ul>
+                    <li>C#</li>
+                    <li>HTML/CSS</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+
+            <section class="card bg-green">
+                <h2 id="code">Code Example</h2>
+                <pre class="code-scroll">
+                    <code>
+                        private void button1_Click(object sender, EventArgs e)
+                        {
+                            if (textBox1.Text != "" && maskedTextBox1.MaskFull != false && textBox3.Text != "" && 
+                                maskedTextBox2.MaskFull != false && textBox5.Text != "")
+                            {
+                                listBox1.Items.Add(textBox1.Text);
+                                listBox2.Items.Add(maskedTextBox1.Text);
+                                listBox3.Items.Add(textBox3.Text);
+                                listBox4.Items.Add(maskedTextBox2.Text);
+                                listBox5.Items.Add(textBox5.Text);
+                            }
+
+                            else MessageBox.Show("Не все поля заполнены!");
+                        }
+                    </code>
+                </pre>
+            </section>
+
+            <section class="card bg-aqua">
+                <h2 id="projects">My projects</h2>
+                <a href="https://aleks-filippov.github.io/rsschool-cv/cv" target="_blank">CV#1. Markdown &amp; Git</a>
+            </section>
+
+            <section class="card bg-blue">
+                <h2 id="education">Education</h2>
+                <ul>
+                    <li>School №31 in Bobruisk</li>
+                    <li><a href="https://psu.by" target="_blank">Polotsk State University</a>, Software Engineer (2018-2022)</li>
+                </ul>
+            </section>
+
+            <section class="card bg-purple">
+                <h2 id="languages">Languages</h2>
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>English - A2</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="container footer-flex">
+        <a href="https://rs.school/js/" target="_blank">
+            <img src="/assets/rsschool-logo.svg" alt="RSSchool Logo" class="rsschool-logo">
+        </a>
+        <p class="year">2023</p>
+        <a href="https://github.com/aleks-filippov" target="_blank">
+            <img src="/assets/github-logo.png" alt="GitHub Logo" class="github-logo">
+        </a>
+    </footer>
 </body>
 </html>
