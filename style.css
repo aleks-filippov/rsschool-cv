@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Box Model */
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+/* -----HEADER----- */
+
+.photo {
+    width: 250px;
+    border-radius: 28px;
+}
+
+/* Info */
+
+.info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.info p{
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.info-text {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+/* NavBar */
+
+.navigation {
+    display: flex;  
+}
+
+.navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 4px;
+}
+
+.navigation li {
+    margin: 0px 20px;
+    list-style-type: none;
+}
+
+/* Links */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited {
+    color: grey;
+}
+
+
+/* -----MAIN----- */
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.code-scroll {
+    overflow: scroll;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.bg-orange {
+    background: #ffe7bd;
+}
+
+.bg-yellow {
+    background: #feffdc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-aqua {
+    background: #cbffff;
+}
+
+.bg-blue {
+    background: #98a4e6;
+}
+
+.bg-purple {
+    background: #e999ff;
+}
+
+
+/* -----FOOTER----- */
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rsschool-logo {
+    width: 100px;
+}
+
+.year {
+    font-size: 24px;
+}
+
+.github-logo {
+    width: 55px;
+}
